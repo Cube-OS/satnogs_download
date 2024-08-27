@@ -1,0 +1,7 @@
+target/
+.DS_Store
+
+# Output paths
+98849/
+98858/
+*.tar.gz

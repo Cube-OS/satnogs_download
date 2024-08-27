@@ -1,0 +1,13 @@
+Satellite IDs:
+
+CUAVA-2: 98858
+WS-1: 98849
+
+Satnogs downloader will download the data from observations
+and store them in folders named by the satellite ID.
+
+Folder will contain 2 files:
+- *.raw: the raw data file
+- *.url: file containing all URL links to individual data packets
+
+Afterwards run `cuava-beacon-decoder -i "ID.raw" -o "ID.txt/json"` to generate JSON files.

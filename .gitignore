@@ -4,4 +4,5 @@ target/
 # Output paths
 98849/
 98858/
+download/
 *.tar.gz
